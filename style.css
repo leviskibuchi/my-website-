@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+}
+/* Style the logo */
+.logo {
+    display: block;      /* Makes the image a block element */
+    margin: 20px auto;   /* Centers it horizontally and adds vertical spacing */
+    width: 150px;        /* Adjust the size */
+}
+.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;     /* Never bigger than 80% of the screen width */
+    height: auto;       /* Keeps the original aspect ratio */
+}
